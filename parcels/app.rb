@@ -13,7 +13,7 @@ get ('/') do
 end
 
 get ('/output') do
-  require('./gems/2.5.0/gems/loc-0.1.0/lib/loc')
+  # require('./gems/2.5.0/gems/loc-0.1.0/lib/loc')
   @length = params.fetch("length")
   @width = params.fetch("width")
   @height = params.fetch("height")
